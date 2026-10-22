@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Achadinhos do Lar 🏠 | Promoções para sua casa</title>
+<meta name="description" content="Entre no grupo VIP do Achadinhos do Lar e receba as melhores promoções para sua casa todos os dias.">
+<meta property="og:title" content="Achadinhos do Lar 🏠">
+<meta property="og:description" content="Promoções de casa, cozinha e decoração todos os dias. Grupo grátis!">
+<meta property="og:image" content="https://http2.mlstatic.com/D_NQ_NP_998279-MLA118061045876_102026-G.webp">
+
+<!-- Meta Pixel: troque SEU_PIXEL_ID pelo número do seu pixel (aparece 2 vezes neste arquivo) -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', 'SEU_PIXEL_ID');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=SEU_PIXEL_ID&ev=PageView&noscript=1"/></noscript>
+
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:#FFF6EF;color:#1F3A5F;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px 16px}
+  .card{width:100%;max-width:420px;background:#fff;border-radius:24px;box-shadow:0 10px 40px rgba(255,122,61,.18);overflow:hidden;text-align:center}
+  .topo{background:#FF7A3D;padding:28px 20px 60px;color:#fff}
+  .topo h1{font-size:26px;font-weight:800}
+  .topo p{font-size:15px;opacity:.95;margin-top:6px}
+  .logo{width:110px;height:110px;border-radius:50%;border:5px solid #fff;margin:-55px auto 0;display:block;background:#fff;object-fit:cover}
+  .conteudo{padding:18px 22px 28px}
+  .selo{display:inline-block;background:#FFC93C;color:#1F3A5F;font-weight:800;font-size:13px;padding:6px 14px;border-radius:999px;margin-bottom:14px}
+  .lista{list-style:none;text-align:left;margin:0 auto 22px;max-width:300px}
+  .lista li{font-size:15px;padding:7px 0;border-bottom:1px dashed #f1e2d6}
+  .lista li:last-child{border:0}
+  .btn{display:block;width:100%;padding:18px;border-radius:16px;font-size:18px;font-weight:800;text-decoration:none;transition:transform .1s}
+  .btn:active{transform:scale(.97)}
+  .btn-grupo{background:#25D366;color:#fff;box-shadow:0 6px 0 #1a9e4b;animation:pulsa 1.6s infinite}
+  .btn-canal{background:#fff;color:#1F3A5F;border:2px solid #1F3A5F;font-size:15px;padding:13px;margin-top:14px}
+  .vagas{font-size:13px;color:#c0562a;margin-top:10px;font-weight:600}
+  .rodape{font-size:11px;color:#8a97a8;margin-top:18px}
+  @keyframes pulsa{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="topo">
+      <h1>Achadinhos do Lar 🏠</h1>
+      <p>As promoções mais top para sua casa, todo dia</p>
+    </div>
+    <img class="logo" src="https://http2.mlstatic.com/D_NQ_NP_998279-MLA118061045876_102026-G.webp" alt="Achadinhos do Lar">
+    <div class="conteudo">
+      <span class="selo">GRUPO 100% GRÁTIS</span>
+      <ul class="lista">
+        <li>🔥 Ofertas de casa, cozinha e decoração</li>
+        <li>💰 Achadinhos baratos todo dia</li>
+        <li>🛒 Links direto da Shopee</li>
+        <li>🔕 Só admins postam, sem bagunça</li>
+      </ul>
+      <a class="btn btn-grupo" href="https://chat.whatsapp.com/BpyVuOEg4Lv2x6HXT1wUDM" onclick="return ir(event,this.href,'EntrarGrupo')">
+        👉 ENTRAR NO GRUPO VIP
+      </a>
+      <p class="vagas">Entre agora e receba a próxima promoção</p>
+      <a class="btn btn-canal" href="https://whatsapp.com/channel/0029Vb97Jid9xVJi4QscaD3v" onclick="return ir(event,this.href,'SeguirCanal')">
+        📢 Prefiro seguir o canal
+      </a>
+      <p class="rodape">Preços e estoque sujeitos a alteração pela loja.</p>
+    </div>
+  </div>
+<script>
+  function ir(e, url, evento){
+    e.preventDefault();
+    try{
+      fbq('trackCustom', evento);
+      fbq('track', 'Lead', {content_name: evento});
+    }catch(_){}
+    setTimeout(function(){ window.location.href = url; }, 350);
+    return false;
+  }
+</script>
+</body>
+</html>
